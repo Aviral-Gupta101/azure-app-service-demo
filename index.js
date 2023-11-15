@@ -8,6 +8,6 @@ app.get("/", (req, res) => {
     res.send("Hello world");
 })
 
-app.listen(3000, (req, res) => {
+app.listen(PORT, (req, res) => {
     console.log("server started at localhost");
 });
